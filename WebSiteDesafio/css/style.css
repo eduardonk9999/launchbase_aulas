@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,600;0,900;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+header{
+    margin: 0 auto;
+    background: #04d361;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.contatos{
+    text-align: center;
+    margin: 0 auto;
+}
+.contatos a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin:0 30px;
+    
+}
+
+.logo img {
+    max-width: 250px;
+    height: auto;
+    text-align: center;
+    transform: translate(1px, 14px);
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+    text-align: center;
+    margin: 10px auto 60px auto;
+    border: 10px solid #65d462;
+    border-radius: 100%;
+    width: 240px;
+    overflow: hidden;
+    height: 230px;
+}
+
+
+h1 {
+    display: flex;
+    align-items: baseline;
+    color: #fff;
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+}
+.text {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text p {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.cap__img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cap__img img {
+    /* max-width: 320px; */
+    /* height: auto; */
+    /* width: 100%; */
+    text-align: center;
+    width: 100%;
+    transform: translate(0px, 20px);
+}
+.cap__img.cap__img--node {
+    background: #90c53f;
+}
+
+.cap__img.cap__img--react {
+    background: #2a2c2e;
+}
+
+.cap__img.cap__img--native {
+    background: #38a6cf;
+}
+
+
+.cap__img.cap__img--native img {
+    transform: translate(0px, 43px);
+}
+.cap__img.cap__img--node {
+    background: #90c53f;
+}
+
+.cap__img.cap__img--react {
+    background: #2a2c2e;
+}
+
+.cap__img.cap__img--native {
+    background: #38a6cf;
+}
+
+.cap__img.cap__img--native {}
+
+.cap__img.cap__img--native img {
+    transform: translate(0px, 43px);
+}
+
+.tec {
+    max-width: 400px;
+    border: 5px solid #65d462;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.tec h3 {
+    margin: 20px auto;
+}
+section.tecnologias {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1340px;
+    width: 90%;
+    margin: 100px auto 0 auto;
+}
