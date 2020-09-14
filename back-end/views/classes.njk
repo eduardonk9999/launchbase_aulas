@@ -1,26 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "layout.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Eduardo</title>
-</head>
+{% block head %}
+    <title>Portfólio - Eduardo</title>
+{% endblock %}
 
-<body>
-    <header>
-        <div class="links">
-            <a href="index.html">Sobre</a>
-            <a href="classes.html">Aulas</a>
-        </div>
-    </header>
+{% block content %}
     <div class="wrapper">
         <h1>Aulas</h1>
+        
     </div>
     <section class="cards">
+        
         <div class="card" id="HN1UjzRSdBk">
             <div class="card__image-container">
                 <img src="https://img.youtube.com/vi/HN1UjzRSdBk/maxresdefault.jpg" alt="image">
@@ -106,8 +96,5 @@
         </div>
     </div>
 
-
-    <script src="js/app.js"></script>
-</body>
-
-</html>
+    <script src="/app.js"></script>
+{% endblock %}
