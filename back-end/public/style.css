@@ -76,6 +76,7 @@ header{
 }
 .card {
     background-color: var(--color-rox);
+    display: grid;
 }
 .card__image-container img{
     width: 100%;
@@ -83,11 +84,13 @@ header{
 .card__content,
 .card__info {
     padding: 24px;
+    /* display: grid; */
 }
 
 .card__info{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: baseline;
 }
 .card_price{
     background-color: var( --color-rox);
