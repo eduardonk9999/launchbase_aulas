@@ -3,7 +3,8 @@ module.exports = [
         id: "HN1UjzRSdBk",
         title: "CSS GRID",
         duration: "36 min",
-        price: "Free"
+        price: "Free",
+        featured: true
     },
     {
         id: "BaI8dHUthLA",
